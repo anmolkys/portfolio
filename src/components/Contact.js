@@ -1,6 +1,5 @@
 import React from "react";
 import {AiOutlineMail} from "@react-icons/all-files/ai/AiOutlineMail"
-import {IoIosCall} from "@react-icons/all-files/io/IoIosCall"
 export default function Contact(){
     return(
     <div className="contact-wrapper">

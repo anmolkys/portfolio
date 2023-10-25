@@ -43,7 +43,7 @@
 .link:hover .bar {
   opacity: 0.5;
   bottom: 5px;
-}/*# sourceMappingURL=App.css.map */
+}
 @counter-style emo{
   system: cyclic;
   symbols: "\1F371" "\1F359" "\1F5FC";

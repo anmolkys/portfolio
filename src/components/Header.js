@@ -6,7 +6,7 @@ export default function Header(){
     return (
         <header className='header'>
         <div class="logo">
-        <a href="https://www.anmolkys.in">hysuko</a>
+        <a href="https://www.anmolkys.in">anmolkys</a>
     </div>
     <div class="menu">
       <a href="https://github.com/anmolkys" class="link">

@@ -14,12 +14,12 @@ function App() {
     },
     {
       title:"anonymost",
-      desc:"-> first mern stack project",
+      desc:"-> mern stack project that lets you post anonymous thoughts",
       link:"https://anonymost.netlify.app/"
     },
     {
       title:"notes-app",
-      desc:"-> first React project",
+      desc:"-> stay organized by making notes and todos",
       link:"https://anmolkys.github.io/Notes/"
     }
   ];
@@ -30,7 +30,7 @@ function App() {
       <p className='about-para'>
         🎈 A minimalistic fullstack developer , who learns new technology really fast.<br></br>
         🏀 Also a basketball player and a part time Anime geek.<br />
-        🌱 Currently doing Undergrad in <b>VIT Vellore</b>
+        🌱 Currently doing Undergrad in VIT Vellore
       </p>
       <br />
       <h3 className='projects'>Projects:</h3>
