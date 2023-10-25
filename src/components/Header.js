@@ -16,7 +16,7 @@ export default function Header(){
         <div class="bar"></div>
       </a>
   
-      <a href="https://twitter.com/acolytesi" class="link">
+      <a href="https://twitter.com/" class="link">
         <div class="title">
           <RiTwitterFill></RiTwitterFill>
         </div>
