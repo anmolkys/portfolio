@@ -46,7 +46,7 @@
 }
 @counter-style emo{
   system: cyclic;
-  symbols: "\1F371" "\1F359" "\1F5FC";
+  symbols: "\1F371" "\1F359" "\1F5FC" "\1F338" "\1F458";
   suffix: " ";
 }
 ul{
@@ -83,6 +83,9 @@ a:link,
 .about{
   text-decoration: underline;
   text-decoration-color: blueviolet;
+}
+p{
+  font-size: 16.5px;
 }
 
 .contact{
