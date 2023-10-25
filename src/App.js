@@ -28,9 +28,9 @@ function App() {
     <div className="App">
       <div className='navigator'><a href='/'><h3 className='about'>About</h3></a><a href='/contact'><h3 className='contact'>Contact</h3></a></div>
       <p className='about-para'>
-        🎈 A minimalistic fullstack developer , who learns new technology really fast.<br></br>
-        🏀 Also a basketball player and a part time Anime geek.<br />
-        🌱 Currently doing Undergrad in VIT Vellore
+        🎈 A minimalistic fullstack developer , who learns new technology really fast.</p>
+        <p>🏀 Also a basketball player and a part time Anime geek.</p>
+        <p>🌱 Currently doing Undergrad in VIT Vellore
       </p>
       <br />
       <h3 className='projects'>Projects:</h3>

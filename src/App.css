@@ -94,3 +94,9 @@ a:link,
 .textm{
   margin-left: 5px;
 }
+
+@media only screen and (max-width: 600px) {
+  .project{
+    width: 100%;
+  }
+}
