@@ -10,14 +10,10 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     <Header></Header>
-    <BrowserRouter>
+    <BrowserRouter basename={process.env.PUBLIC_URL}>
     <Switch>
-      <Route exact path="/">
-        <App />
-      </Route>
-      <Route path="/contact">
-        <Contact></Contact>
-      </Route>
+      <Route exact path="/" component={App}/>
+      <Route path="/:contact" component ={Contact}/>
     </Switch>
     </BrowserRouter>
   </React.StrictMode>
