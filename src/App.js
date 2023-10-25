@@ -1,5 +1,6 @@
 import './App.css';
 import Project from './components/Project';
+import { Link } from 'react-router-dom/cjs/react-router-dom';
 function App() {
   const projects = [
     {
@@ -26,7 +27,7 @@ function App() {
 
   return (
     <div className="App">
-      <div className='navigator'><a href='/'><h3 className='about'>About</h3></a><a href='/contact'><h3 className='contact'>Contact</h3></a></div>
+      <div className='navigator'><Link to='/'><h3 className='about'>About</h3></Link><Link to='/contact'><h3 className='contact'>Contact</h3></Link></div>
       <p className='about-para'>
         🎈 A minimalistic fullstack developer , who learns new technology really fast.</p>
         <p>🏀 Also a basketball player and a part time Anime geek.</p>
