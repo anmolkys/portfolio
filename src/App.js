@@ -4,6 +4,11 @@ import { Link } from 'react-router-dom/cjs/react-router-dom';
 function App() {
   const projects = [
     {
+      title:"waifu-api",
+      desc:"-> REST API that serves more than 5000+ images and details of waifus",
+      link:"https://waifu.anmolkys.in"
+    },
+    {
       title:"blog-api",
       desc:"-> written in typescript and NestJs and secured by JWT",
       link:"https://github.com/anmolkys/nestjs-blogapi"
