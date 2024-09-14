@@ -5,17 +5,12 @@ function App() {
   const projects = [
     {
       title:"waifu-api",
-      desc:"-> REST API that serves more than 5000+ images and details of waifus",
+      desc:"-> serves more than 5000+ images and details of waifus",
       link:"https://waifu.anmolkys.in"
     },
     {
-      title:"blog-api",
-      desc:"-> written in typescript and NestJs and secured by JWT",
-      link:"https://github.com/anmolkys/nestjs-blogapi"
-    },
-    {
       title:"url-shortener",
-      desc:"-> short any url fast and redirect your users at light speed",
+      desc:"-> shorten any url fast, redirect your users at light speed and access dashboards",
       link:"https://www.url.anmolkys.in"
     },
     {
@@ -23,16 +18,16 @@ function App() {
       desc:"-> mern stack project that lets you post anonymous thoughts",
       link:"https://anonymost.netlify.app/"
     },
+        {
+      title:"Tiny Devin",
+      desc:"-> deeplearning model that writes code for you by searching the Internet",
+      link:"https://github.com/anmolkys/TinyDevin"
+    },
     {
       title:"notes-app",
       desc:"-> stay organized by making notes and todos",
       link:"https://anmolkys.github.io/Notes/"
     },
-    {
-      title:"military-aircraft-classifier",
-      desc:"-> ml model to classify 50+ variants of military aircraft",
-      link:"https://github.com/anmolkys/Military-Aircraft-Classifier"
-    }
   ];
 
   return (
